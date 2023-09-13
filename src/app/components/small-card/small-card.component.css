@@ -1,24 +1,27 @@
 .container-small-card{
+    width: 700px;
+    margin-bottom: 15px;
+   
+}
+
+.container-small-card-content{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-
-    margin-left: 25px;
-    margin-right: 10px;
-    width: 500px;
-    height: 150px;
 }
 
-.small-card-description{
-    
-    margin-left: 20px;
-    text-align: left;
-}
-
-.small-card-description > p{
+.small-card-photo > img{
     width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
 }
 
-#date{
-    color: gray;
+.small-card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+hr{
+    margin-top: 10px;
 }

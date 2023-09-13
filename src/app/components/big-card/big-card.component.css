@@ -8,8 +8,13 @@
     align-items: flex-start;
 
     margin-left: 25px;
-    margin-right: 10px;
+    margin-right: 50px;
     
+}
+
+.big-card-photo > img{
+    width: 400px;
+    min-width: 400px;
 }
 
 .big-card-title > h1{
